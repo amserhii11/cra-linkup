@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.top {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.topmos,
+.lunchyalla,
+.top,
+.barbgrill,
+.menycatering,
+.yallarules {
+  display: flex;
+}
+
+.border-on-img {
+  margin-top: -16px;
+  margin-left: -16px;
+  border: 16px solid;
+  border-image: url("../images/dots-purple.jpg") 30% round;
+}
+
+.without-left-border {
+  border-left: 0px;
+}
+
+.without-top-border {
+  border-top: 0px;
+}
+ 
+.without-right-border {
+  border-right: 0px;
+}
+
+.border-on-img:hover {
+  border-image: url("../images/dots-green.jpg") 30% round;
+}
+
+.middle {
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: url("../images/bg15.jpg") no-repeat;
+  padding: 25px;
+}
+
+.story-var {
+  display: flex;
+}
+
+.lorem-one {
+  margin-bottom: 300px;
+}
+
+.lorem-two {
+  margin-top: 300px;
+}
+
+.yallarules {
+  height: 40.8%;
+  width: 100%;
+}
+
+.sook-rules {
+  width: 100%;
+}
+
+.kolgrill {
+  width: 100%;
+}
+
+.lunchyalla {
+  height: 32.5%;
+}
+
+@media (max-width: 900px) {
+  .top {
+    display: block;
+    width: 50%;
+  }
+}
